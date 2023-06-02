@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add custom CSS styles for your products page */
+        .product-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-card .product-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .product-card .product-price {
+            color: green;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .add-to-cart-btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Products</h1>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="img/laptop-under-500-2048px-acer-1.jpg" alt="Laptop 1" class="product-image">
+                    <h2 class="product-title">Laptop 1</h2>
+                    <p class="product-price">$799.99</p>
+                    <a href="#" class="add-to-cart-btn">Add to Cart</a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="img/WhatsApp_Image_2021-09-14_at_5.13.31_PM_1631623490905_1631623503195.webp" alt="Laptop 2" class="product-image">
+                    <h2 class="product-title">Laptop 2</h2>
+                    <p class="product-price">$844.99</p>
+                    <a href="#" class="add-to-cart-btn">Add to Cart</a>
+                </div>
+            </div>
+            
+            <!-- Add more product cards here -->
+            
+        </div>
+    </div>
+    
+
+    <a href="cart.html">Go to Cart</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Add any custom JavaScript code for your products page
+    </script>
+</body>
+</html>
